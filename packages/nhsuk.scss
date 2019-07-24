@@ -63,11 +63,6 @@
   .nhsuk-header__logo .nhsuk-logo {
     height: 32px;
     width: 80px;
-
-    @include mq($until: tablet) {
-      height: 25px;
-      width: 63px;
-    }
   }
 }
 
