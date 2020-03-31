@@ -1,0 +1,7 @@
+{%- if params.subHeadingBelow %}
+  <h1 class="nhsuk-u-margin-bottom-1">{{ params.heading }}</h1>
+  <p class="nhsuk-caption-l">{{ params.subHeading }}</p>
+{%- else -%}
+  <h1>{{ params.heading }}</h1>
+  <p class="nhsuk-caption-l">{{ params.subHeading }}</p>
+{%- endif -%}
